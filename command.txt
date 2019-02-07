@@ -1,3 +1,4 @@
+// working directory: /projects
 javac -cp sitoWeb/WEB-INF/lib/servlet-api-2.5.jar sitoWeb/WEB-INF/src/mypkg/*.java -d sitoWeb/WEB-INF/classes
 cp -r sitoWeb/* $TOMCAT_HOME/webapps/ROOT
 $TOMCAT_HOME/bin/catalina.sh run 2>&1
