@@ -1,3 +1,4 @@
-javac -cp sitoWeb/WEB-INF/lib/servlet-api-2.5.jar sitoWeb/WEB-INF/src/mypkg/*.java -d sitoWeb/WEB-INF/classes
-cp -r sitoWeb/* $TOMCAT_HOME/webapps/ROOT
+javac -cp /projects/sitoWeb/WEB-INF/lib/servlet-api-2.5.jar /projects/sitoWeb/WEB-INF/src/mypkg/*.java -d sitoWeb/WEB-INF/classes
+cp -r /projects/sitoWeb/* $TOMCAT_HOME/webapps/ROOT
+cp /projects/sitoWeb/home.html $TOMCAT_HOME/webapps/ROOT
 $TOMCAT_HOME/bin/catalina.sh run 2>&1

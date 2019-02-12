@@ -10,6 +10,11 @@
    </servlet>
    
    <servlet>
+      <servlet-name>DataOraServlet</servlet-name>
+      <servlet-class>mypkg.DataOraServlet</servlet-class>
+   </servlet>
+   
+   <servlet>
       <servlet-name>SalutaServlet</servlet-name>
       <servlet-class>mypkg.Saluta</servlet-class>
    </servlet>
@@ -26,6 +31,11 @@
    <servlet-mapping>
       <servlet-name>HelloWorldServlet</servlet-name>
       <url-pattern>/sayhello</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>DataOraServlet</servlet-name>
+      <url-pattern>/oggi</url-pattern>
    </servlet-mapping>
    
    <servlet-mapping>
