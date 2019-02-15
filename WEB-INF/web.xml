@@ -51,5 +51,15 @@
   <welcome-file-list>  
       <welcome-file>home.html</welcome-file>  
   </welcome-file-list>  
+  
+  <servlet>
+      <servlet-name>Test1</servlet-name>
+      <jsp-file>/saluta1.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+      <servlet-name>Test1</servlet-name>
+      <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
    
 </web-app>
